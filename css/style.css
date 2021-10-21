@@ -1,5 +1,5 @@
 body {
-    background-color: #222222;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
 
@@ -15,7 +15,8 @@ main {
 
 .slider {
     margin-top: 50px;
-    border: 1px white solid;
+    border: 1px #000000 solid;
+    border-radius: 10px;
     width: 800px;
     height: 530px;
     overflow: hidden;
@@ -54,7 +55,7 @@ main {
 }
 
 .manual-btn{
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
