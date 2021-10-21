@@ -9,57 +9,55 @@
         <title>IMAGE SLIDER</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/slider.css">
 
     </head>
 
     <body>
 
         <main>
+            
+            <div class="slider">
 
-            <section class="secaoCarousel">
+                <div class="slides">
+                 
+                     <input type="radio" name="radio-btn" id="radio1">
+                     <input type="radio" name="radio-btn" id="radio2">
+                     <input type="radio" name="radio-btn" id="radio3">
 
-                <div class="slider">
+                     <div class="slide first">
+                         <img src="img/autumn-forest.jpg" alt="">
+                     </div>
 
-                   <div class="slides">
-                    
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
+                     <div class="slide">
+                         <img src="img/lonely-person-walking-on-a-pathway-in-alabama-hills-in-california-with-mount-whitney.jpg" alt="">
+                     </div>
 
-                        <div class="slide first">
-                            <img src="img/autumn-forest.jpg" alt="">
-                        </div>
+                     <div class="slide">
+                         <img src="img/sunrise-over-bali-jungle.jpg" alt="">
+                     </div>
 
-                        <div class="slide">
-                            <img src="img/lonely-person-walking-on-a-pathway-in-alabama-hills-in-california-with-mount-whitney.jpg" alt="">
-                        </div>
+                     <div class="navigation-auto">
+ 
+                         <div class="auto-btn1"></div>
+                         <div class="auto-btn2"></div>
+                         <div class="auto-btn3"></div>
+ 
+                     </div>
 
-                        <div class="slide">
-                            <img src="img/sunrise-over-bali-jungle.jpg" alt="">
-                        </div>
+                 </div>
 
-                        <div class="navigation-auto">
-    
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-    
-                        </div>
+                 <div class="navigation-manual">
 
-                    </div>
-
-                    <div class="navigation-manual">
-
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        
-                    </div>
-                    
-                </div>
-
-            </section>
-    
+                     <label for="radio1" class="manual-btn"></label>
+                     <label for="radio2" class="manual-btn"></label>
+                     <label for="radio3" class="manual-btn"></label>
+                     
+                 </div>
+                 
+             </div>
+ 
         </main>
         
     </body>
